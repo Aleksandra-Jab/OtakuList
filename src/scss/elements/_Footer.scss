@@ -1,0 +1,51 @@
+@import "../settings/variables";
+
+.footer {
+  width: 100%;
+  height: 200px;
+  background-color: $color-primary;
+
+  &__container {
+    width: 80vw;
+    height: 100%;
+    margin: 0 auto;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 100px;
+    text-align: right;
+  }
+
+  p {
+    font-family: $font-title;
+    font-size: 1rem;
+    text-transform: uppercase;
+    color: $color-secondary;
+  }
+
+  a {
+    font-family: $font-title;
+    font-size: 1rem;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: $color-secondary;
+
+    &:hover {
+      color: white;
+      cursor: pointer;
+      transition: .5s ease;
+    }
+  }
+
+  img {
+    height: 150px;
+
+    &:hover {
+      //opacity: 80%;
+      filter: brightness(1.2);
+      cursor: pointer;
+      transition: .5s ease;
+    }
+  }
+}
