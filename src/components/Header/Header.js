@@ -21,18 +21,15 @@ const Header = () => {
                             <li className="nav__item">
                                 <a className="nav__item-link" href="#search">browse anime</a>
                             </li>
-{/*                            <li className="nav__item">
-                                <a className="nav__item-link" href="#generator">recommendation</a>
-                            </li>*/}
                         </ul>
-                        <a className="nav__login" onClick={() => alert("Przykro mi. To tylko figurant. Nie działa - wygląda.")}>zaloguj</a>
+                        <a className="nav__login" onClick={() => alert("My apologies. Login doesn't work.")}>Log in</a>
                     </div>
                 </div>
 
                 <div className="header__title">
                     <h1>Otaku List</h1>
-                    <h2>Bądź na bieżąco <br/>
-                        ze swoimi odcinkami</h2>
+                    <h2>Stay up to date <br/>
+                        with your episodes</h2>
                 </div>
                 <div className="header__description">
                     <p>
