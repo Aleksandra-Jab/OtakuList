@@ -51,11 +51,10 @@ const AnimeBrowser = () => {
                 </div>
             </div>
 
-            {animes?.length > 0
+            {animes.length > 0
                 ? (
                     <div className="browser__container">
-                        {animes.map((anime) => <AnimeCard anime={anime} />
-                        )}
+                        {animes.map((anime, index) => <AnimeCard key={index + 1} anime={anime} />)}
                     </div>
                 ) : (
                     <div className="empty">
