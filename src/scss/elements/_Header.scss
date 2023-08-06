@@ -8,7 +8,6 @@
 
   &__container {
     width: 80vw;
-    height: 200px;
     margin: 0 auto;
     padding: 50px;
 
@@ -35,10 +34,10 @@
       font-size: 1.5rem;
       text-transform: uppercase;
       text-decoration: none;
+      cursor: pointer;
 
       &:hover {
         color: $color-hover;
-        cursor: pointer;
         transition: .5s ease;
       }
     }
@@ -79,6 +78,8 @@
     font-family: $font-title;
     text-transform: uppercase;
     text-align: right;
+    white-space: nowrap;
+
 
     h1 {
       font-size: 7rem;
@@ -98,7 +99,7 @@
     font-size: 1rem;
     color: $color-text;
     text-align: center;
-    margin-bottom: 170px;
+    margin-top: 100px;
   }
 }
 

@@ -1,8 +1,14 @@
-import React from "react";
+import React, { useState } from "react";
 import "../../scss/elements/_Header.scss";
-const Header = () => {
+const Header = ({ setShowAnimeList }) => {
+    const OpenAnimeList = (e) => {
+        e.preventDefault();
+        setShowAnimeList(true);
+        document.getElementById("anime-list").style.display = "";
+    }
+
     return (
-        <div className="header">
+        <div className="header" id="header">
             <div className="header__container">
 
                 <div className="header__nav">
@@ -16,7 +22,7 @@ const Header = () => {
                                 <a className="nav__item-link" href="index.html">home</a>
                             </li>
                             <li className="nav__item">
-                                <a className="nav__item-link" href="animelist.html">anime list</a>
+                                <a className="nav__item-link" href="anime-list" onClick={OpenAnimeList}>anime list</a>
                             </li>
                             <li className="nav__item">
                                 <a className="nav__item-link" href="#search">browse anime</a>
@@ -31,12 +37,13 @@ const Header = () => {
                     <h2>Stay up to date <br/>
                         with your episodes</h2>
                 </div>
+
                 <div className="header__description">
                     <p>
-                        It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+                        I am honored to serve you this website. Feel free to use it. <br/>
+                        Browse and collect as many title as you wish.
                     </p>
                 </div>
-
             </div>
         </div>
     );

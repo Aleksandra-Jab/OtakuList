@@ -1,9 +1,6 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
-import ThemeProvider from 'react-bootstrap/ThemeProvider'
 import { Routes, Route, Link } from "react-router-dom";
-import Home from "./pages/Home/Home";
-import About from "./pages/About/About";
-import Menu from "./components/Menu/Menu";
+import App from "components/App";
 
 function App() {
   return (
@@ -11,10 +8,8 @@ function App() {
           breakpoints={['xxxl', 'xxl', 'xl', 'lg', 'md', 'sm', 'xs', 'xxs']}
           minBreakpoint="xxs"
       >
-          <Menu/>
           <Routes>
-              <Route path="/" element={<Home />} />
-              <Route path="about" element={<About />} />
+              <Route path="/" element={<App />} />
           </Routes>
       </ThemeProvider>
   );

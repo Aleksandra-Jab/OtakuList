@@ -1,0 +1,157 @@
+{
+  "animeList": [
+    {
+      "MALid": 1,
+      "title": "Cowboy Bebop",
+      "type": "TV",
+      "progress": 26,
+      "episodes": 26,
+      "watchingStatus": "completed",
+      "id": 1
+    },
+    {
+      "MALid": 5,
+      "title": "Cowboy Bebop: Tengoku no Tobira",
+      "type": "Movie",
+      "progress": 0,
+      "episodes": 1,
+      "watchingStatus": "plan-to-watch",
+      "id": 2
+    },
+    {
+      "MALid": 6,
+      "title": "Trigun",
+      "type": "TV",
+      "progress": 26,
+      "episodes": 26,
+      "watchingStatus": "completed",
+      "id": 3
+    },
+    {
+      "MALid": 15,
+      "title": "Eyeshield 21",
+      "type": "TV",
+      "progress": 112,
+      "episodes": 145,
+      "watchingStatus": "dropped",
+      "id": 4
+    },
+    {
+      "MALid": 17,
+      "title": "Hungry Heart: Wild Striker",
+      "type": "TV",
+      "progress": 7,
+      "episodes": 52,
+      "watchingStatus": "dropped",
+      "id": 5
+    },
+    {
+      "MALid": 121,
+      "title": "Fullmetal Alchemist",
+      "type": "TV",
+      "progress": 51,
+      "episodes": 51,
+      "watchingStatus": "completed",
+      "id": 9
+    },
+    {
+      "MALid": 5114,
+      "title": "Fullmetal Alchemist: Brotherhood",
+      "type": "TV",
+      "progress": 64,
+      "episodes": 64,
+      "watchingStatus": "completed",
+      "id": 10
+    },
+    {
+      "MALid": 6421,
+      "title": "Fullmetal Alchemist: Brotherhood Specials",
+      "type": "Special",
+      "progress": 3,
+      "episodes": 4,
+      "watchingStatus": "dropped",
+      "id": 11
+    },
+    {
+      "MALid": 664,
+      "title": "Fullmetal Alchemist: Reflections",
+      "type": "Special",
+      "progress": 0,
+      "episodes": 1,
+      "watchingStatus": "plan-to-watch",
+      "id": 12
+    },
+    {
+      "MALid": 9135,
+      "title": "Fullmetal Alchemist: The Sacred Star of Milos",
+      "type": "Movie",
+      "progress": 1,
+      "episodes": 1,
+      "watchingStatus": "completed",
+      "id": 13
+    },
+    {
+      "MALid": 31964,
+      "title": "Boku no Hero Academia",
+      "type": "TV",
+      "progress": 13,
+      "episodes": 13,
+      "watchingStatus": "completed",
+      "id": 14
+    },
+    {
+      "MALid": 33486,
+      "title": "Boku no Hero Academia 2nd Season",
+      "type": "TV",
+      "progress": 25,
+      "episodes": 25,
+      "watchingStatus": "completed",
+      "id": 15
+    },
+    {
+      "MALid": 36456,
+      "title": "Boku no Hero Academia 3rd Season",
+      "type": "TV",
+      "progress": 25,
+      "episodes": 25,
+      "watchingStatus": "completed",
+      "id": 16
+    },
+    {
+      "MALid": 853,
+      "title": "Ouran Koukou Host Club",
+      "type": "TV",
+      "progress": 26,
+      "episodes": 26,
+      "watchingStatus": "completed",
+      "id": 17
+    },
+    {
+      "MALid": 3371,
+      "title": "Ginga Eiyuu Densetsu Gaiden",
+      "type": "OVA",
+      "progress": 1,
+      "episodes": 24,
+      "watchingStatus": "plan-to-watch",
+      "id": 18
+    },
+    {
+      "MALid": 43,
+      "title": "Koukaku Kidoutai",
+      "type": "Movie",
+      "progress": 1,
+      "episodes": 1,
+      "watchingStatus": "completed",
+      "id": 19
+    },
+    {
+      "MALid": 43,
+      "title": "Koukaku Kidoutai",
+      "type": "Movie",
+      "progress": 1,
+      "episodes": 1,
+      "watchingStatus": "completed",
+      "id": 20
+    }
+  ]
+}
